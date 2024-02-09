@@ -28,4 +28,9 @@ public class Sorter {
             array[j + 1] = key;
         }
     }
+
+    public static void sortUsingInsertionSort(int[] array) {
+        insertionSort(array);
+    }
+    
 }
