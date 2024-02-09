@@ -32,5 +32,8 @@ public class Sorter {
     public static void sortUsingInsertionSort(int[] array) {
         insertionSort(array);
     }
-    
+
+    public static void sortUsingSelectionSort(int[] array) {
+        selectionSort(array);
+    }
 }
